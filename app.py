@@ -1,3 +1,5 @@
+import streamlit
+
 st.code("""
  def goo(input):
     return a**2
@@ -39,3 +41,4 @@ for i in range(1,101):
 em1 = st.text_input('Enter your email')
 number = st.number_input('Enter your Age')
 date = st.date_input('Enter your Date of birth')
+streamlit.write('Here is my 2nd commit')
